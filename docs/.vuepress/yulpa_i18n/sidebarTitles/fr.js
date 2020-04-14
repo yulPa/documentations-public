@@ -1,0 +1,15 @@
+module.exports = {
+    '/iwal/': "Manager iWal",
+    '/certificats-ssl/': "Certificats SSL",
+    '/domaines/': "Noms de domaines",
+    '/hebergements-mutualises/': 'Hébergements web tout-en-un',
+    '/website-yulpa/': 'Sites yulpa-builder',
+    '/website-wordpress/': 'Sites Wordpress',
+    '/zimbra-ose-mutualises/': 'Emails Zimbra Open-Source',
+    '/zimbra-ne-mutualises/': 'Emails Zimbra NE (PRO)',
+    '/zimbra-prive/': 'Serveurs privés Zimbra',
+    '/spam-expert/': 'Gateway Spam-Experts',
+    '/containers-lxc/': "Containers LXC",
+    '/drive/': 'Drive',
+    '/vcloud-director/': 'Datacenter virtuel vCD',
+}

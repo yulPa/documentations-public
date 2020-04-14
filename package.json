@@ -1,0 +1,35 @@
+{
+  "name": "documentations-public",
+  "version": "1.0.0",
+  "description": "Documentation YULPA à destinations des clients",
+  "keywords": [
+    "yulpa",
+    "iwal",
+    "documentation"
+  ],
+  "homepage": "https://github.com/yulPa/documentations-public#readme",
+  "bugs": {
+    "url": "https://github.com/yulPa/documentations-public/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulPa/documentations-public.git"
+  },
+  "license": "MIT",
+  "author": "Aurélien PONCINI <aurelien.poncini@yulpa.io>",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1",
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "@vuepress/plugin-nprogress": "^1.4.0",
+    "vuepress": "^1.4.0"
+  },
+  "dependencies": {
+    "directory-tree": "^2.2.4",
+    "vuepress-plugin-matomo": "^1.0.2"
+  }
+}
