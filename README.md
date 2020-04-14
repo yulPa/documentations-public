@@ -1,3 +1,5 @@
+![Build and Deploy](https://github.com/yulPa/documentations-public/workflows/Build%20and%20Deploy/badge.svg)
+
 # Documentations YULPA avec VuePress
 
 Documentations à destination des clients yulpa.
