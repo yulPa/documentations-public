@@ -1,6 +1,7 @@
 const dirTree = require('directory-tree')
 
 module.exports = ctx => ({
+  lang: 'fr-FR',
   locales: {
     '/': {
       lang: 'fr-FR',
@@ -9,7 +10,9 @@ module.exports = ctx => ({
     },
   },
   head: [
-    ['link', { rel: 'icon', href: '/images/favicon.png' }],
+    ['link', { rel: 'icon', href: '/icons/favicon.png' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
@@ -37,9 +40,16 @@ module.exports = ctx => ({
       },
     },
     plugins: [
-      ['@vuepress/active-header-links'],
-      ['@vuepress/back-to-top', true],
-      ['@vuepress/nprogress'],
+      '@vuepress/active-header-links',
+      [
+        '@vuepress/back-to-top',
+        true
+      ],
+      ['@vuepress/pwa', {
+        serviceWorker: true,
+        updatePopup: true
+      }],
+      '@vuepress/nprogress',
       [
         'vuepress-plugin-matomo',
         {
