@@ -7,6 +7,10 @@ module.exports = [
                 link: '/iwal/'
             },
             {
+                text: 'Compte utilisateur',
+                link: '/iwal/0-utilisateur'
+            },
+            {
                 text: 'Fiches clients',
                 link: '/iwal/1-clients'
             },
@@ -94,26 +98,16 @@ module.exports = [
         text: 'Cloud',
         items: [
             {
-                text: 'Gamme perso',
-                items: [
-                    {
-                        text: 'Containers LXC (VPS)',
-                        link: '/containers-lxc/'
-                    },
-                    {
-                        text: 'Drive',
-                        link: '/drive/'
-                    },
-                ]
+                text: 'Containers LXC (VPS)',
+                link: '/containers-lxc/'
             },
             {
-                text: 'Gamme pro',
-                items: [
-                    {
-                        text: 'Datacenter virtuel vCD',
-                        link: '/vcloud-director/'
-                    }
-                ]
+                text: 'Drive',
+                link: '/drive/'
+            },
+            {
+                text: 'vCloud : datacenter virtuel vCD',
+                link: '/vcloud-director/'
             }
         ]
     },

@@ -6,7 +6,7 @@ module.exports = ctx => ({
     '/': {
       lang: 'fr-FR',
       title: 'Documentations YULPA',
-      description: 'Bienvenue sur les documentations yulpa :)',
+      description: 'A destination des clients',
     },
   },
   head: [

@@ -10,5 +10,5 @@ features:
   details: "Le contenu présenté couvre l'usage du manager iWal, et des services YULPA. Prochainement il sera complété par des tutoriaux de la communautée."
 - title: Avec quelles évolutions ?
   details: "Le contenu des guides a vocation à évoluer et à être amélioré grâce à vos retours et suggestions !"
-footer: Contenu crée par yulpa avec ❤️ Propulsé par VuePress et publié sous licence ouverte sur GitHub.
+footer: Contenu crée par yulpa avec ❤️ Propulsé par VuePress et publié sous licence MIT sur GitHub.
 ---

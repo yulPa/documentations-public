@@ -11,5 +11,5 @@ module.exports = {
     '/spam-expert/': 'Gateway Spam-Experts',
     '/containers-lxc/': "Containers LXC",
     '/drive/': 'Drive',
-    '/vcloud-director/': 'Datacenter virtuel vCD',
+    '/vcloud-director/': 'vCloud : datacenter virtuel vCD',
 }
