@@ -4,27 +4,23 @@ module.exports = [
         items: [
             {
                 text: 'Pour débuter',
-                link: '/iwal/'
+                link: '/iWal/'
             },
             {
                 text: 'Compte utilisateur',
-                link: '/iwal/0-utilisateur'
+                link: '/iWal/utilisateur'
             },
             {
-                text: 'Fiches clients',
-                link: '/iwal/1-clients'
+                text: 'Organisations (clients)',
+                link: '/iWal/organisation'
             },
             {
                 text: 'Gestion des services',
-                link: '/iwal/2-services'
+                link: '/iWal/services'
             },
             {
-                text: 'Commandes',
-                link: '/iwal/3-commandes'
-            },
-            {
-                text: 'Comptabilité',
-                link: '/iwal/4-comptabilite'
+                text: 'Commandes & comptabilité',
+                link: '/iWal/comptabilite'
             }
         ]
     },
@@ -45,7 +41,7 @@ module.exports = [
         text: 'Hébergements & sites web',
         items: [
             {
-                text: 'Hébergements web tout-en-un',
+                text: 'Hébergements Web-SQL',
                 link: '/hebergements-mutualises/'
             },
             {

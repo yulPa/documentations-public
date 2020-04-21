@@ -1,10 +1,14 @@
-# Utilisateur
+---
+autoGroup-3: Services
+---
+
+# Commander / renouveler un service
 
 Veniam esse duis ea amet veniam cillum sit nisi nostrud occaecat dolore commodo pariatur. Quis reprehenderit mollit anim nulla est. Ut adipisicing est pariatur quis tempor laboris qui cupidatat aute pariatur veniam.
 
 Eu aliquip adipisicing commodo laboris occaecat dolore elit irure officia anim eiusmod. Non tempor cupidatat aliqua laborum eiusmod quis reprehenderit magna aute amet nulla esse cupidatat sit. Elit minim duis deserunt duis veniam sint elit excepteur in occaecat id aliquip. Occaecat cupidatat ullamco tempor sint occaecat tempor mollit nostrud deserunt anim aute. Ut amet consectetur do do veniam exercitation sint voluptate non sint minim.
 
-## With Subheading
+## Commander un nouveau service
 
 Anim dolor irure commodo et in. Et laboris voluptate aliquip elit adipisicing nisi nulla do adipisicing. Ad ea laborum laborum 
 
@@ -14,7 +18,20 @@ Esse adipisicing irure esse pariatur qui excepteur eu enim elit labore commodo. 
 
 Id incididunt eu fugiat incididunt proident eiusmod pariatur eiusmod adipisicing. Duis ad sunt ipsum magna. Consectetur commodo anim et tempor irure non est sunt deserunt eiusmod sunt deserunt irure eu. Elit amet consequat occaecat ut. Est mollit sunt magna magna voluptate id commodo.
 
-## And More Subheadings!
+## Modifier un service existant
+
+Anim dolor irure commodo et in. Et laboris voluptate aliquip elit adipisicing nisi nulla do adipisicing. Ad ea laborum laborum
+
+sit in amet ut duis ullamco cupidatat dolore velit magna. Incididunt et sint nostrud eu. Voluptate deserunt irure sint velit anim esse veniam officia aliquip. Ut consectetur esse et enim cillum adipisicing veniam aliquip consequat velit dolor culpa amet.
+
+## Renouveler manuellement
+
+Anim dolor irure commodo et in. Et laboris voluptate aliquip elit adipisicing nisi nulla do adipisicing. Ad ea laborum laborum
+
+sit in amet ut duis ullamco cupidatat dolore velit magna. Incididunt et sint nostrud eu. Voluptate deserunt irure sint velit anim esse veniam officia aliquip. Ut consectetur esse et enim cillum adipisicing veniam aliquip consequat velit dolor culpa amet.
+
+
+## Renouvellement automatique
 
 Nisi sunt aute officia velit eiusmod sunt id. Commodo enim adipisicing excepteur exercitation. Occaecat enim veniam velit nostrud duis.
 
