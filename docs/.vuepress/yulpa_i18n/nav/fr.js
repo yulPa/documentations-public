@@ -116,6 +116,10 @@ module.exports = [
                 link: '/a-propos/'
             },
             {
+                text: 'Contribuer',
+                link: '/a-propos/contribuer/'
+            },
+            {
                 text: 'Réseaux sociaux',
                 items: [
                     {
