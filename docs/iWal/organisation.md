@@ -1,8 +1,8 @@
 ---
-autoGroup-1: Utilisateur & Clients
+autoGroup-2: Organisations (clients)
 ---
 
-# Organisation (clients)
+# Gérer ses organisations
 
 Veniam esse duis ea amet veniam cillum sit nisi nostrud occaecat dolore commodo pariatur. Quis reprehenderit mollit anim nulla est. Ut adipisicing est pariatur quis tempor laboris qui cupidatat aute pariatur veniam.
 

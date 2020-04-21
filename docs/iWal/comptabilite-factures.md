@@ -1,5 +1,5 @@
 ---
-autoGroup-5: Comptabilité
+autoGroup-5: Commandes & comptabilité
 ---
 
 # Factures

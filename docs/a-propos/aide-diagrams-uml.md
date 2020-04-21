@@ -6,6 +6,8 @@ autoGroup-2: Aide et exemples
 
 Merci à [Vuepress Theme Cool Starter V1](https://friendlyuser.github.io/vuepress-theme-cool-starter/).
 
+Besoin de travailler votre diagramme facilement, allez donc ici [https://mermaid-js.github.io/mermaid-live-editor/](https://mermaid-js.github.io/mermaid-live-editor/) :)
+
 ## PlantUml
 
 ```js
