@@ -1,7 +1,7 @@
 # Stack utilisée
 
 
-Ce site est crée avec [VuePress](https://vuepress.vuejs.org/). Sa
+Ce site est créé avec [VuePress](https://vuepress.vuejs.org/). Sa
 [documentation complète sur GitHub](https://vuepress.vuejs.org/guide/).
 
 [Le dépôt des guides YULPA sur GitHub](https://github.com/yulPa/documentations-public).

@@ -194,7 +194,7 @@ permalink: /hebergements-mutualises/comptes-emails
 
 Si le fichier porte exactement le même nom que le permalink, cela n'est
 bien entendu pas nécessaire. Par exemple si le fichier se nomme
-comptes-emails.md
+`comptes-emails.md`.
 
 ## Les menus
 
@@ -227,7 +227,7 @@ Le mappage *nom-du-dossier* -> *nom du chapitre* est effectué en
 
 Comme vous pouvez le voir cela ne correspond pas forcément à tous les
 cas de figures. Si vous avez besoin de modifier cela, il faut effectuer
-un mappage dans le fichier `docs/.vuepress/yulpa_i18n/sideBar/fr.js`.
+un mappage dans le fichier `docs/.vuepress/yulpa_i18n/sideBar/fr.js`
 
 ```
 module.exports =

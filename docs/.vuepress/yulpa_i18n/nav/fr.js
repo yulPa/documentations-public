@@ -1,6 +1,6 @@
 module.exports = [
     {
-        text: 'Manager iWal',
+        text: 'iWal',
         items: [
             {
                 text: 'Pour débuter',
@@ -38,7 +38,7 @@ module.exports = [
         ]
     },
     {
-        text: 'Hébergements & sites web',
+        text: 'Hébergements web',
         items: [
             {
                 text: 'Hébergements Web-SQL',
