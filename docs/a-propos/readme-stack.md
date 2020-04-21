@@ -41,6 +41,9 @@ elles sont disponibles. Le lien GitHub est présent sur ces pages.*
   nom de Piwik) ;
 - [vuepress-plugin-crisp](https://github.com/z3by/vuepress-plugin-crisp)
   pour l'intégration de la chatBox de Crisp ;
+- [vuepress-plugin-medium-zoom](https://vuepress.github.io/en/plugins/medium-zoom) pour des images plus sympas :)
 
 Merci aux créateurs de ces plugin qui nous permettent de vous présenter
 un contenu avec une belle mise en forme :)
+
+Si vous cherchez des modules, allez jeter un oeil ici : [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)

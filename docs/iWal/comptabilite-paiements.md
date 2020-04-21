@@ -1,8 +1,8 @@
 ---
-autoGroup-5: Comptabilité
+autoGroup-5: Commandes & comptabilité
 ---
 
-# Comptabilité
+# Moyens de paiements
 
 Veniam esse duis ea amet veniam cillum sit nisi nostrud occaecat dolore commodo pariatur. Quis reprehenderit mollit anim nulla est. Ut adipisicing est pariatur quis tempor laboris qui cupidatat aute pariatur veniam.
 

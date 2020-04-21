@@ -1,5 +1,5 @@
 ---
-autoGroup-1: Chapitre 1
+autoGroup-2: Chapitre 2
 ---
 
 # Section 1

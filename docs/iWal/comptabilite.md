@@ -1,5 +1,5 @@
 ---
-autoGroup-3: Services
+autoGroup-5: Commandes & comptabilité
 ---
 
 # Commander / renouveler un service

@@ -2,7 +2,7 @@
 autoGroup-1: Chapitre 1
 ---
 
-# Section 1
+# Section 2
 
 [[toc]]
 
