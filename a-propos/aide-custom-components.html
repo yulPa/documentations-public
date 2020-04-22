@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Custom Components | Documentations YULPA</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    <link rel="icon" href="/icons/favicon.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="description" content="A destination des clients">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/assets/css/0.styles.4c1c99a6.css" as="style"><link rel="preload" href="/assets/js/app.2399e398.js" as="script"><link rel="preload" href="/assets/js/3.c309d788.js" as="script"><link rel="preload" href="/assets/js/15.7656303c.js" as="script"><link rel="preload" href="/assets/js/10.892181da.js" as="script"><link rel="preload" href="/assets/js/8.3327d339.js" as="script"><link rel="preload" href="/assets/js/5.a3dad532.js" as="script"><link rel="preload" href="/assets/js/7.11fb8c14.js" as="script"><link rel="preload" href="/assets/js/6.d0204c53.js" as="script"><link rel="prefetch" href="/assets/js/11.788777ff.js"><link rel="prefetch" href="/assets/js/12.8daf7f42.js"><link rel="prefetch" href="/assets/js/13.ae978e33.js"><link rel="prefetch" href="/assets/js/14.58bc05aa.js"><link rel="prefetch" href="/assets/js/16.687dcc4f.js"><link rel="prefetch" href="/assets/js/17.e1758fca.js"><link rel="prefetch" href="/assets/js/18.42c42659.js"><link rel="prefetch" href="/assets/js/19.79a55a97.js"><link rel="prefetch" href="/assets/js/20.afc83312.js"><link rel="prefetch" href="/assets/js/21.84b52a54.js"><link rel="prefetch" href="/assets/js/22.85d4aadb.js"><link rel="prefetch" href="/assets/js/23.8930f9b3.js"><link rel="prefetch" href="/assets/js/24.9ebb0373.js"><link rel="prefetch" href="/assets/js/25.983753d4.js"><link rel="prefetch" href="/assets/js/26.85b4dc93.js"><link rel="prefetch" href="/assets/js/27.780a13c8.js"><link rel="prefetch" href="/assets/js/28.d851baac.js"><link rel="prefetch" href="/assets/js/29.647d6526.js"><link rel="prefetch" href="/assets/js/30.fd806784.js"><link rel="prefetch" href="/assets/js/31.312305c9.js"><link rel="prefetch" href="/assets/js/32.b7d46044.js"><link rel="prefetch" href="/assets/js/33.83b4bda4.js"><link rel="prefetch" href="/assets/js/34.b6206b69.js"><link rel="prefetch" href="/assets/js/35.d84ed44a.js"><link rel="prefetch" href="/assets/js/36.ba349a56.js"><link rel="prefetch" href="/assets/js/37.1bc3bd31.js"><link rel="prefetch" href="/assets/js/38.030e80b9.js"><link rel="prefetch" href="/assets/js/39.709e0820.js"><link rel="prefetch" href="/assets/js/4.7255d67f.js"><link rel="prefetch" href="/assets/js/40.4fb7fd09.js"><link rel="prefetch" href="/assets/js/41.9113d016.js"><link rel="prefetch" href="/assets/js/42.74553627.js"><link rel="prefetch" href="/assets/js/9.09c40e9d.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.348b2caa.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.4c1c99a6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/images/logo-yulpa.png" alt="Documentations YULPA" class="logo"> <span class="site-name can-hide">Documentations YULPA</span></a> <div class="links"><!----> <div class="user-settings"><a href="#" class="settings-button"><svg aria-hidden="true" data-prefix="fas" data-icon="cog" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-cog fa-w-16 settings-icon"><path fill="currentColor" d="M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z"></path></svg></a> <div class="user-settings-menu" style="display:none;"><div class="theme-options"><!----> <!----> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Enable Dark Theme?</label> <input id="dark-theme-toggle" type="checkbox"></div> <!----> <!----></div></div></div> <!----> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="iWal" class="dropdown-title"><span class="title">iWal</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/iWal/" class="nav-link">
+  Pour débuter
+</a></li><li class="dropdown-item"><!----> <a href="/iWal/utilisateur.html" class="nav-link">
+  Compte utilisateur
+</a></li><li class="dropdown-item"><!----> <a href="/iWal/organisation.html" class="nav-link">
+  Organisations (clients)
+</a></li><li class="dropdown-item"><!----> <a href="/iWal/services.html" class="nav-link">
+  Gestion des services
+</a></li><li class="dropdown-item"><!----> <a href="/iWal/comptabilite.html" class="nav-link">
+  Commandes &amp; comptabilité
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Domaines &amp; SSL" class="dropdown-title"><span class="title">Domaines &amp; SSL</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/certificats-ssl/" class="nav-link">
+  Certificats SSL
+</a></li><li class="dropdown-item"><!----> <a href="/domaines/" class="nav-link">
+  Noms de domaines
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Hébergements web" class="dropdown-title"><span class="title">Hébergements web</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/hebergements-mutualises/" class="nav-link">
+  Hébergements Web-SQL
+</a></li><li class="dropdown-item"><h4>
+          Sites clés en main
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/website-yulpa/" class="nav-link">
+  Sites yulpa-builder
+</a></li><li class="dropdown-subitem"><a href="/website-wordpress/" class="nav-link">
+  Sites Wordpress
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Emails &amp; anti-spam" class="dropdown-title"><span class="title">Emails &amp; anti-spam</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Emails
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zimbra-ose-mutualises/" class="nav-link">
+  Emails Zimbra Open-Source
+</a></li><li class="dropdown-subitem"><a href="/zimbra-ne-mutualises/" class="nav-link">
+  Emails Zimbra NE (PRO)
+</a></li><li class="dropdown-subitem"><a href="/zimbra-prive/" class="nav-link">
+  Serveurs privés Zimbra
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Anti-spam
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/spam-expert/" class="nav-link">
+  Gateway Spam-Experts
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Cloud" class="dropdown-title"><span class="title">Cloud</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/containers-lxc/" class="nav-link">
+  Containers LXC (VPS)
+</a></li><li class="dropdown-item"><!----> <a href="/drive/" class="nav-link">
+  Drive
+</a></li><li class="dropdown-item"><!----> <a href="/vcloud-director/" class="nav-link">
+  vCloud : datacenter virtuel vCD
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Learn More" class="dropdown-title"><span class="title">A propos</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/a-propos/" class="nav-link router-link-active">
+  A propos
+</a></li><li class="dropdown-item"><!----> <a href="/a-propos/contribuer/" class="nav-link">
+  Contribuer
+</a></li><li class="dropdown-item"><h4>
+          Réseaux sociaux
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://twitter.com/yulpa_io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Twitter
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.facebook.com/yulPa.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Facebook
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.linkedin.com/company/yulpa" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Linkedin
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.instagram.com/yulpa.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Instagram
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/yulPa/documentations-public.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="iWal" class="dropdown-title"><span class="title">iWal</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/iWal/" class="nav-link">
+  Pour débuter
+</a></li><li class="dropdown-item"><!----> <a href="/iWal/utilisateur.html" class="nav-link">
+  Compte utilisateur
+</a></li><li class="dropdown-item"><!----> <a href="/iWal/organisation.html" class="nav-link">
+  Organisations (clients)
+</a></li><li class="dropdown-item"><!----> <a href="/iWal/services.html" class="nav-link">
+  Gestion des services
+</a></li><li class="dropdown-item"><!----> <a href="/iWal/comptabilite.html" class="nav-link">
+  Commandes &amp; comptabilité
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Domaines &amp; SSL" class="dropdown-title"><span class="title">Domaines &amp; SSL</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/certificats-ssl/" class="nav-link">
+  Certificats SSL
+</a></li><li class="dropdown-item"><!----> <a href="/domaines/" class="nav-link">
+  Noms de domaines
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Hébergements web" class="dropdown-title"><span class="title">Hébergements web</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/hebergements-mutualises/" class="nav-link">
+  Hébergements Web-SQL
+</a></li><li class="dropdown-item"><h4>
+          Sites clés en main
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/website-yulpa/" class="nav-link">
+  Sites yulpa-builder
+</a></li><li class="dropdown-subitem"><a href="/website-wordpress/" class="nav-link">
+  Sites Wordpress
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Emails &amp; anti-spam" class="dropdown-title"><span class="title">Emails &amp; anti-spam</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Emails
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/zimbra-ose-mutualises/" class="nav-link">
+  Emails Zimbra Open-Source
+</a></li><li class="dropdown-subitem"><a href="/zimbra-ne-mutualises/" class="nav-link">
+  Emails Zimbra NE (PRO)
+</a></li><li class="dropdown-subitem"><a href="/zimbra-prive/" class="nav-link">
+  Serveurs privés Zimbra
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Anti-spam
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/spam-expert/" class="nav-link">
+  Gateway Spam-Experts
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Cloud" class="dropdown-title"><span class="title">Cloud</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/containers-lxc/" class="nav-link">
+  Containers LXC (VPS)
+</a></li><li class="dropdown-item"><!----> <a href="/drive/" class="nav-link">
+  Drive
+</a></li><li class="dropdown-item"><!----> <a href="/vcloud-director/" class="nav-link">
+  vCloud : datacenter virtuel vCD
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Learn More" class="dropdown-title"><span class="title">A propos</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/a-propos/" class="nav-link router-link-active">
+  A propos
+</a></li><li class="dropdown-item"><!----> <a href="/a-propos/contribuer/" class="nav-link">
+  Contribuer
+</a></li><li class="dropdown-item"><h4>
+          Réseaux sociaux
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://twitter.com/yulpa_io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Twitter
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.facebook.com/yulPa.io" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Facebook
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.linkedin.com/company/yulpa" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Linkedin
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://www.instagram.com/yulpa.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Instagram
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/yulPa/documentations-public.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>A Propos</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Contribuer</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Aide et exemples</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/a-propos/aide-admonitions.html" class="sidebar-link">Admonitions</a></li><li><a href="/a-propos/aide-charts-math.html" class="sidebar-link">Charts And Math</a></li><li><a href="/a-propos/aide-custom-components.html" class="active sidebar-link">Custom Components</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/a-propos/aide-custom-components.html#tables" class="sidebar-link">Tables</a></li><li class="sidebar-sub-header"><a href="/a-propos/aide-custom-components.html#timeline" class="sidebar-link">TimeLine</a></li><li class="sidebar-sub-header"><a href="/a-propos/aide-custom-components.html#quiz" class="sidebar-link">Quiz</a></li><li class="sidebar-sub-header"><a href="/a-propos/aide-custom-components.html#comparsion" class="sidebar-link">Comparsion</a></li><li class="sidebar-sub-header"><a href="/a-propos/aide-custom-components.html#admonition-task-list" class="sidebar-link">Admonition Task List</a></li><li class="sidebar-sub-header"><a href="/a-propos/aide-custom-components.html#badges" class="sidebar-link">Badges</a></li><li class="sidebar-sub-header"><a href="/a-propos/aide-custom-components.html#build-in-admonitions" class="sidebar-link">Build-in admonitions</a></li></ul></li><li><a href="/a-propos/aide-diagrams.html" class="sidebar-link">Diagrams MERMAID</a></li><li><a href="/a-propos/aide-diagrams-uml.html" class="sidebar-link">Diagrams UML</a></li><li><a href="/a-propos/aide-flowchart.html" class="sidebar-link">Flowchart</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="custom-components"><a href="#custom-components" class="header-anchor">#</a> Custom Components</h1> <h2 id="tables"><a href="#tables" class="header-anchor">#</a> Tables</h2> <div><div class="vgt-wrap "><!----> <div class="vgt-inner-wrap"><!----> <!----> <!----> <div class="vgt-fixed-header"><!----></div> <div class="vgt-responsive" style="overflow:scroll-y;max-height:auto;"><table class="vgt-table bordered "><thead data-v-eb5a915e><tr data-v-eb5a915e><!----> <!----> <th class="vgt-left-align sortable" style="min-width:auto;max-width:auto;width:auto;" data-v-eb5a915e><span data-v-eb5a915e>Name</span></th><th class="vgt-right-align sortable" style="min-width:auto;max-width:auto;width:auto;" data-v-eb5a915e><span data-v-eb5a915e>Age</span></th><th class="vgt-right-align sortable" style="min-width:auto;max-width:auto;width:auto;" data-v-eb5a915e><span data-v-eb5a915e>Created On</span></th><th class="vgt-right-align sortable" style="min-width:auto;max-width:auto;width:auto;" data-v-eb5a915e><span data-v-eb5a915e>Percent</span></th></tr> <!----></thead> <tbody><!----> <tr><!----> <!----> <td class="vgt-left-align"><span>
+                  John
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  20
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  Jan 31st 11
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  3.34%
+                </span> <!----></td></tr><tr><!----> <!----> <td class="vgt-left-align"><span>
+                  Jane
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  24
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  Jan 31st 19
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  3.34%
+                </span> <!----></td></tr><tr><!----> <!----> <td class="vgt-left-align"><span>
+                  Susan
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  16
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  Jan 30th 11
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  3.34%
+                </span> <!----></td></tr><tr><!----> <!----> <td class="vgt-left-align"><span>
+                  Chris
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  55
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  Jan 11th 11
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  3.34%
+                </span> <!----></td></tr><tr><!----> <!----> <td class="vgt-left-align"><span>
+                  Dan
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  40
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  Jan 21st 11
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  3.34%
+                </span> <!----></td></tr><tr><!----> <!----> <td class="vgt-left-align"><span>
+                  John
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  20
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  Jan 31st 11
+                </span> <!----></td><td class="vgt-right-align"><span>
+                  3.34%
+                </span> <!----></td></tr> <!----></tbody> <!----></table></div> <!----> <!----></div></div></div> <h3 id="table-component-code"><a href="#table-component-code" class="header-anchor">#</a> Table Component Code</h3> <p>The code for table component is listed below</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>vue-good-table</span>
+      <span class="token attr-name">:columns</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>columns<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:rows</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>rows<span class="token punctuation">&quot;</span></span>
+     <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> Styles <span class="token keyword">from</span> <span class="token string">'./Styles'</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'my-component'</span><span class="token punctuation">,</span>
+  <span class="token comment">// add to component</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      columns<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'Name'</span><span class="token punctuation">,</span>
+          field<span class="token operator">:</span> <span class="token string">'name'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'Age'</span><span class="token punctuation">,</span>
+          field<span class="token operator">:</span> <span class="token string">'age'</span><span class="token punctuation">,</span>
+          type<span class="token operator">:</span> <span class="token string">'number'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'Created On'</span><span class="token punctuation">,</span>
+          field<span class="token operator">:</span> <span class="token string">'createdAt'</span><span class="token punctuation">,</span>
+          type<span class="token operator">:</span> <span class="token string">'date'</span><span class="token punctuation">,</span>
+          dateInputFormat<span class="token operator">:</span> <span class="token string">'YYYY-MM-DD'</span><span class="token punctuation">,</span>
+          dateOutputFormat<span class="token operator">:</span> <span class="token string">'MMM Do YY'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          label<span class="token operator">:</span> <span class="token string">'Percent'</span><span class="token punctuation">,</span>
+          field<span class="token operator">:</span> <span class="token string">'score'</span><span class="token punctuation">,</span>
+          type<span class="token operator">:</span> <span class="token string">'percentage'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      rows<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span> id<span class="token operator">:</span><span class="token number">1</span><span class="token punctuation">,</span> name<span class="token operator">:</span><span class="token string">&quot;John&quot;</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span> createdAt<span class="token operator">:</span> <span class="token string">'201-10-31:9: 35 am'</span><span class="token punctuation">,</span>score<span class="token operator">:</span> <span class="token number">0.03343</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span> id<span class="token operator">:</span><span class="token number">2</span><span class="token punctuation">,</span> name<span class="token operator">:</span><span class="token string">&quot;Jane&quot;</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">24</span><span class="token punctuation">,</span> createdAt<span class="token operator">:</span> <span class="token string">'2011-10-31'</span><span class="token punctuation">,</span> score<span class="token operator">:</span> <span class="token number">0.03343</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span> id<span class="token operator">:</span><span class="token number">3</span><span class="token punctuation">,</span> name<span class="token operator">:</span><span class="token string">&quot;Susan&quot;</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">16</span><span class="token punctuation">,</span> createdAt<span class="token operator">:</span> <span class="token string">'2011-10-30'</span><span class="token punctuation">,</span> score<span class="token operator">:</span> <span class="token number">0.03343</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span> id<span class="token operator">:</span><span class="token number">4</span><span class="token punctuation">,</span> name<span class="token operator">:</span><span class="token string">&quot;Chris&quot;</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">55</span><span class="token punctuation">,</span> createdAt<span class="token operator">:</span> <span class="token string">'2011-10-11'</span><span class="token punctuation">,</span> score<span class="token operator">:</span> <span class="token number">0.03343</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span> id<span class="token operator">:</span><span class="token number">5</span><span class="token punctuation">,</span> name<span class="token operator">:</span><span class="token string">&quot;Dan&quot;</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">40</span><span class="token punctuation">,</span> createdAt<span class="token operator">:</span> <span class="token string">'2011-10-21'</span><span class="token punctuation">,</span> score<span class="token operator">:</span> <span class="token number">0.03343</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span> id<span class="token operator">:</span><span class="token number">6</span><span class="token punctuation">,</span> name<span class="token operator">:</span><span class="token string">&quot;John&quot;</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span> createdAt<span class="token operator">:</span> <span class="token string">'2011-10-31'</span><span class="token punctuation">,</span> score<span class="token operator">:</span> <span class="token number">0.03343</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>Since package css cannot be important inside an component, another component is needed</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+<span class="token keyword">import</span> <span class="token string">&quot;vue-good-table/dist/vue-good-table.css&quot;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">&quot;Styles&quot;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span>style<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="timeline"><a href="#timeline" class="header-anchor">#</a> TimeLine</h2> <p>An example timeline of the courses I took</p> <ul class="timeline"><li class="timeline-title" style="color:#37414a;"><div class="timeline-circle timeline-title-circle" style="border-color:#09FFAA;background-color:#09FFAA;"></div> Prehistoric hunters cross over into Canada from Asia</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#9dd8e0;background-color:#9dd8e0;"></div> 	Leif Ericsson leads a Viking expedition to the New World</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#9dFFe0;background-color:#9dFFe0;"></div> First Year 1B</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#FFF000;background-color:#FFF000;"></div> Accepted Computer Engineering</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#cFe8eF;background-color:#cFe8eF;"></div> The Iroquois Confederacy is formed</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#97Aec8;background-color:#97Aec8;"></div> John Cabot reaches Newfoundland (or perhaps Cape Breton)</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#5744D4;background-color:#5744D4;"></div> Jacques Cartier first explores the St. Lawrence region</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#0F4859;background-color:#0F4859;"></div> Second Year 2B</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#094341;background-color:#094341;"></div> Samuel de Champlain establishes a French colony at Québec City</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#825F03;background-color:#825F03;"></div> Hudson’s Bay Company is formed</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#954F08;background-color:#954F08;"></div> Expulsion of the Acadians</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#A71490;background-color:#A71490;"></div> Battle of the Plains of Abraham: Québec City is captured</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#C084A9;background-color:#C084A9;"></div> New France is formally ceded to Britain; Pontiac Rebellion erupts</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#7B71C2;background-color:#7B71C2;"></div> Loyalist refugees begin arriving after the American Revolution</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#2348B1;background-color:#2348B1;"></div> War of 1812: U.S. invades Canada</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#915F15;background-color:#915F15;"></div> Rebellions against British rule in Upper and Lower Canada</li> <li class="timeline-item" style="color:#37414a;"><div class="timeline-circle" style="border-color:#0909FA;background-color:#0909FA;"></div> 	Responsible government is won, first in Nova Scotia, then in Canada</li></ul> <p>Nice timeline 🚀</p> <h2 id="quiz"><a href="#quiz" class="header-anchor">#</a> Quiz</h2> <p>non utilisé pour le moment, à suivre sur <a href="https://friendlyuser.github.io/vuepress-theme-cool-starter/custom-components.html#quiz" target="_blank" rel="noopener noreferrer">https://friendlyuser.github.io/vuepress-theme-cool-starter/custom-components.html#quiz<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h2 id="comparsion"><a href="#comparsion" class="header-anchor">#</a> Comparsion</h2> <p>What is going on?</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>pros<span class="token operator">-</span>cons
+  intro<span class="token operator">=</span><span class="token string">&quot;There are a couple of things we need to cover:&quot;</span>
+  <span class="token operator">:</span>good<span class="token operator">=</span>&quot;<span class="token punctuation">[</span>
+    <span class="token string">'Documentation Theme Based on Vue.'</span><span class="token punctuation">,</span>
+    <span class="token string">'Use of markdown-it plugins.'</span><span class="token punctuation">,</span>
+    <span class="token string">'Static Site Generator.'</span>
+  <span class="token punctuation">]</span>&quot;
+  <span class="token operator">:</span>bad<span class="token operator">=</span>&quot;<span class="token punctuation">[</span>
+    <span class="token string">'Vuepress is not very stable yet'</span><span class="token punctuation">,</span>
+    <span class="token string">'Can be complex to configure'</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span>&quot;
+<span class="token operator">/</span><span class="token operator">&gt;</span>
+</code></pre></div><div data-v-6ae7be3c><p class="intro" data-v-6ae7be3c>
+    There are a couple of things we need to cover:
+  </p> <div class="comparison" data-v-6ae7be3c><div class="comparison__container" data-v-6ae7be3c><div class="comparison__heading" data-v-6ae7be3c><i class="material-icons blue-text" data-v-6ae7be3c>check</i>
+        Pros
+      </div> <ul data-v-6ae7be3c><li data-v-6ae7be3c></li><li data-v-6ae7be3c></li><li data-v-6ae7be3c></li></ul></div> <div class="comparison__container comparison__container--donts" data-v-6ae7be3c><div class="comparison__heading comparison__heading--donts" data-v-6ae7be3c><i class="material-icons" data-v-6ae7be3c>close</i>
+        Cons
+      </div> <ul data-v-6ae7be3c><li data-v-6ae7be3c></li><li data-v-6ae7be3c></li></ul></div></div></div> <h2 id="admonition-task-list"><a href="#admonition-task-list" class="header-anchor">#</a> Admonition Task List</h2> <p>Tasks can be made using</p> <div class="language- extra-class"><pre class="language-text"><code>- [ ] incomplete
+- [x] complete
+</code></pre></div><div class="admonition danger"><p class="admonition-title">Major Backlog</p> <p>The tasks listed below are expected to be done by the end of the term ENGR 004, haha?.</p> <ul class="contains-task-list"><li class="task-list-item"><input disabled="disabled" type="checkbox" class="task-list-item-checkbox"> cool <a href="https://medium.com/@sebinatx/building-an-ethereum-firebase-user-profile-dapp-part-2-226bcc11ae62," target="_blank" rel="noopener noreferrer">firebase Vue Dapp<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>, typescript</li> <li class="task-list-item"><input checked="checked" disabled="disabled" type="checkbox" class="task-list-item-checkbox"> Soldiity contracts repo for games, explaining how to use then and more. Also, use solcdoc to make markdoown files and a script for latex/vuepress to include the source?</li> <li class="task-list-item"><input disabled="disabled" type="checkbox" class="task-list-item-checkbox"> Update the Blockchain notes repo.</li> <li class="task-list-item"><input checked="checked" disabled="disabled" type="checkbox" class="task-list-item-checkbox"> When making the solidity contracts use boostnote minus the admonitions, but write the code in either js or solidity and use <a href="http://weibeld.net/markdown/pandoc_code_blocks.html" target="_blank" rel="noopener noreferrer">Pandoc Markdown Code Blocks in LaTeX<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> with a custom pandoc template. Idk, don't really care about documenting smart contracts.</li> <li class="task-list-item"><input checked="checked" disabled="disabled" type="checkbox" class="task-list-item-checkbox"> update python script to probably with jinja based format and maybe latex output.</li> <li class="task-list-item"><input disabled="disabled" type="checkbox" class="task-list-item-checkbox"> <a href="https://pusher.com/tutorials/chat-bot-nestjs" target="_blank" rel="noopener noreferrer">Building a chat bot with Nest.js and Dialogflow<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>, extend this app. and look at <a href="https://www.pubnub.com/tutorials/chatengine/vuejs/chat-app/" target="_blank" rel="noopener noreferrer">How to Build a Vue.js Chat App with ChatEngine | PubNub<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li class="task-list-item"><input disabled="disabled" type="checkbox" class="task-list-item-checkbox"> Dash application to track ethereum stats and hashgraph</li> <li class="task-list-item"><input checked="checked" disabled="disabled" type="checkbox" class="task-list-item-checkbox"> Update the Bchain application, Vue-Dapp and finish a basic IPFS app using a box.</li> <li class="task-list-item"><input disabled="disabled" type="checkbox" class="task-list-item-checkbox"> Ability to upload sites to ipfs and look into cloudiary</li> <li class="task-list-item"><input checked="checked" disabled="disabled" type="checkbox" class="task-list-item-checkbox"> Build a basic scrappy bot for reddit, host on scrappy hub and maybe even send data to apis. Used Rss feeds instead.</li> <li class="task-list-item"><input disabled="disabled" type="checkbox" class="task-list-item-checkbox"> Consider using <a href="https://github.com/thomasreinecke/git-playbook" target="_blank" rel="noopener noreferrer">GitHub - thomasreinecke/git-playbook: GIT Playbook is a documentation framework that allows you to create Documentation for your project using Markdown and GH-Pages rapidly<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> as a good final repo for all of my documentation, particularly when it comes to searching for things.</li></ul></div> <h2 id="badges"><a href="#badges" class="header-anchor">#</a> Badges</h2> <span class="badge error" style="vertical-align:top;" data-v-15b7b770>error</span> <span class="badge warning" style="vertical-align:top;" data-v-15b7b770>warning</span> <span class="badge tip" style="vertical-align:top;" data-v-15b7b770>tip</span> <span class="badge tip" style="vertical-align:top;" data-v-15b7b770>default theme</span> <h2 id="build-in-admonitions"><a href="#build-in-admonitions" class="header-anchor">#</a> Build-in admonitions <span class="badge tip" style="vertical-align:middle;" data-v-15b7b770>Middle badge</span></h2> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>This is a tip</p></div> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>This is a warning</p></div> <div class="custom-block danger"><p class="custom-block-title">WARNING</p> <p>This is a dangerous warning</p></div> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>This is a tip</p></div> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>This is a warning</p></div> <div class="custom-block danger"><p class="custom-block-title">STOP</p> <p>This is a dangerous warning</p></div> <p>Some other good examples can be found at https://vuepress-examples.netlify.com/</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/yulPa/documentations-public.git/edit/master/docs/a-propos/aide-custom-components.md" target="_blank" rel="noopener noreferrer">Editer cette page sur GitHub</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Dernière mise à jour:</span> <span class="time">4/22/2020, 10:25:03 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/a-propos/aide-charts-math.html" class="prev">
+        Charts And Math
+      </a></span> <span class="next"><a href="/a-propos/aide-diagrams.html">
+        Diagrams MERMAID
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----><div class="reading-progress right" data-v-21b39eda><div class="progress" data-v-21b39eda></div></div></div></div>
+    <script src="/assets/js/app.2399e398.js" defer></script><script src="/assets/js/3.c309d788.js" defer></script><script src="/assets/js/15.7656303c.js" defer></script><script src="/assets/js/10.892181da.js" defer></script><script src="/assets/js/8.3327d339.js" defer></script><script src="/assets/js/5.a3dad532.js" defer></script><script src="/assets/js/7.11fb8c14.js" defer></script><script src="/assets/js/6.d0204c53.js" defer></script>
+  </body>
+</html>
