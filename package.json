@@ -23,7 +23,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "markdown-it-admonition": "^1.0.4",
     "markdown-it-katex": "^2.0.3",
     "markdown-it-plantuml": "^1.4.1",
